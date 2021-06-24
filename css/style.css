@@ -11,12 +11,23 @@ body {
   position: relative;
   margin: auto;
   background-color: #222222;
+  overflow: hidden;
 }
-.car {
+.car, .enemy {
   width: 50px;
   height: 100px;
   position: absolute;
   left: 125px;
   bottom: 10px;
   background: transparent url('../img/player.png') center / cover no-repeat;
+}
+.line {
+  position: absolute;
+  left: 145px;
+  width: 10px;
+  height: 50px;
+  background: #ffffff;
+}
+.enemy {
+  background: transparent url('../img/enemy2.png') center / cover no-repeat;
 }
